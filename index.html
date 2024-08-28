@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA's Gym</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0%;
+        background: url(img/img4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 26px;
+        top: 22px;
+        padding-left: 40px;
+    }
+
+    .left img {
+        width: 73px;
+    }
+
+    .left div {
+        text-align: center;
+        color: black;
+        line-height: 2;
+        font-size: 21px;
+    }
+
+    .mid {
+        display: block;
+        width: 65%;
+        margin: 12px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 33px;
+        top: 0%;
+        /* display: inline-block; */
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 20px 20px;
+    }
+
+    .navbar li a:hover,.navbar li a.active {
+        text-decoration: underline;
+        color: rgb(24, 151, 248);
+    }
+
+    .btn {
+        margin: 42px 1px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        /* border: 2px solid gray; */
+        /* border-radius: 8px; */
+        font-size: 13px;
+        cursor: pointer;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+
+    .btn:hover {
+        background-color: rgb(94, 92, 92);
+    }
+
+    .container {
+        /* border: 2px solid; */
+        margin: 74px 29px;
+        padding: 10px 104px;
+        /* border-radius: 21px; */
+        width: 33%;
+        color: black;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 374px;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 2px auto;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left Box For Logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>USA's Fitness</div>
+        </div>/
+        <!-- mid box For Navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym of Mumbai</h1>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Weight">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
